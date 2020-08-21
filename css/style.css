@@ -6,8 +6,12 @@
 }
 body {
     min-height: 100vh;
-    background-color: #eee;
+    background-color: #fff;
     font-family: "Montserrat";
+}
+.hero {
+    min-height: 100vh;
+    position: relative;
 }
 .top-menu {
     height: 40px;
@@ -66,4 +70,30 @@ a {
 }
 .top-menu .social svg {
     cursor: pointer;
+}
+.menu {
+    height: 80px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.055);
+    background: linear-gradient(130deg, #fff, #0438620e);
+    text-transform: capitalize;
+}
+.menu .logo img {
+    width: 150px;
+}
+.menu nav {
+    width: 70%;
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu a {
+    color: #043762;
+    font-size: 14px;
+    font-weight: 400;
 }
