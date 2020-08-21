@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;700;900&display=swap");
 * {
     margin: 0;
     padding: 0;
@@ -6,4 +7,63 @@
 body {
     min-height: 100vh;
     background-color: #eee;
+    font-family: "Montserrat";
+}
+.top-menu {
+    height: 40px;
+    background-color: #fe9128;
+    color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.473);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 50px;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size-adjust: 12px;
+}
+a {
+    text-decoration: none;
+}
+.top-menu ul {
+    display: flex;
+    list-style: none;
+}
+.top-menu .donation {
+    margin: 0 20px;
+}
+.top-menu .donation li {
+    margin: 0 20px;
+    position: relative;
+}
+.top-menu .welcome p {
+    font-size: 13px;
+    font-weight: 400;
+}
+.top-menu .welcome p svg {
+    font-size-adjust: 16px;
+    margin-right: 5px;
+    color: #777;
+}
+.top-menu .donation li:nth-of-type(1)::after,
+.top-menu .donation li:nth-of-type(2)::after {
+    content: "/";
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    transform: translateY(-50%);
+}
+.top-menu .donation a {
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+}
+.top-menu .social {
+    margin-left: auto;
+}
+.top-menu .social li {
+    margin: 0 10px;
+}
+.top-menu .social svg {
+    cursor: pointer;
 }
