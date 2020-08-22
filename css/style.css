@@ -139,7 +139,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #0438623d;
+    background-color: #04386218;
 }
 .center-btn button {
     background-color: rgb(0, 151, 76);
@@ -155,4 +155,40 @@ a {
 }
 .center-btn button:hover {
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.445);
+}
+.cards {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.card {
+    padding: 0 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #043762;
+    margin: 0 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.342);
+}
+.card article {
+    text-align: center;
+    padding: 30px 0 10px;
+    color: white;
+}
+.card article p {
+    margin-top: 20px;
+    font-weight: 300;
+}
+.card .icon {
+    padding: 30px;
+    background-color: rgb(202, 202, 202);
+    border-radius: 0 0 5px 5px;
+}
+.card .icon svg {
+    font-size: 30px;
+    color: #043762;
 }
