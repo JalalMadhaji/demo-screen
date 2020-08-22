@@ -133,3 +133,26 @@ a {
     font-size: 30px;
     text-shadow: 0 0 5px #043762;
 }
+
+.center-btn {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0438623d;
+}
+.center-btn button {
+    background-color: rgb(0, 151, 76);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.445);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.center-btn button:hover {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.445);
+}
