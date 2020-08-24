@@ -263,7 +263,7 @@ a {
   align-items: center;
   background-color: #043762;
   margin: 10px 5px;
-  border-radius: 5px;
+  border-radius: 3px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.342);
 }
 .card article {
