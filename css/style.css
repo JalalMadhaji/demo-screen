@@ -335,8 +335,25 @@ a {
   margin-right: 10px;
   position: relative;
 }
-
 /* About Section */
+/* Compaigns Section */
+.compaigns {
+  min-height: 50vh;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.compaigns h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.compaigns p {
+  color: #555;
+}
+/* Compaigns Section */
 /* Media Query */
 @media screen and (max-width: 1000px) {
   .menu nav {
